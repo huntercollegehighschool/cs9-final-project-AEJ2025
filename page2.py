@@ -1,31 +1,3 @@
-#Use of this page is optional. If you use code here, make sure either import page2 or from page2 import * appear on your main.py page.
-''' __
-                            .d$$b
-                          .' TO$;\
-                         /  : TP._;
-                        / _.;  :Tb|
-                       /   /   ;j$j
-                   _.-"       d$$$$
-                 .' ..       d$$$$;
-                /  /P'      d$$$$P. |\
-               /   "      .d$$$P' |\^"l
-             .'           `T$P^"""""  :
-         ._.'      _.'                ;
-      `-.-".-'-' ._.       _.-"    .-"
-    `.-" _____  ._              .-"
-   -(.g$$$$$$$b.              .'
-     ""^^T$$$P^)            .(:
-       _/  -"  /.'         /:/;
-    ._.'-'`-'  ")/         /;/;
- `-.-"..--""   " /         /  ;
-.-" ..--""        -'          :
-..--""--.-"         (\      .-(\
-  ..--""              `-\(\/;`
-    _.                      :
-                            ;`-
-                           :\
-                           ;  bug'''                            
-                             
 
 #Help-Bar
 def leave():
@@ -53,8 +25,9 @@ def front():
   print("--After your day is done, you've earned enough tips, plus the pay Asky gave you, to cover your expences for a few more days of adventuring until you find another tavern to work at. Maybe you'll run into Elwin, Calla, and the Hearthstones on your travels!")
   print("--The End--")
 def back():
-  print("shady lads, ask what they want, kidnapped")#need text
-  print("take you away as bait, you escape, they see you")#need text
+  print("--You go to the back of the tavern, where some shady-looking characters and a kind old woman sit. You ask for their orders and the old woman sitting with them and the old woman says, 'Let me get that bit of dirt of your nose, dearie.' She reaches out her hankerchief and you suddenly become drowsy and collapse.")
+  print("--While you remain unconsious, the shady characters and the not so kind old lady take you to their camp in the Githube Woods. When you wake up you see a bag embroidered with the words 'To Asky, xoxo Pyth'. They must have stolen Asky's napsack!")
+  print("--You try to grab the napsack but the bandits catch you escaping and corner you. You are forced into battle!")
   import random
 
   bandit_list = ["win", "lose"]
@@ -69,8 +42,8 @@ def back():
 
 #Find-Fight
 def onward():
-  print("continue, tie up horse")#need text
-  print("meet bandits")#need text
+  print("--You continue on foot after tying up the injured horse. You'll go back for him once you finish your quest.")
+  print("--After a bit of walking, you see the bandit's camp, as well as Asky's bag, which is embroidered with the words 'To Asky, xoxo Pyth'. Unforunatly, the bandits see you, too. You are forced into battle!")
   import random
   bandit_list = ["win", "lose"]
   bandit = random.choice(bandit_list)
@@ -82,8 +55,8 @@ def onward():
     lose()
 
 def flee():
-  print("return, help horse")#need text
-  print("dissapointment, hurt horse, don't come back")#need text
+  print("--You go back to the tavern where the horse is bandaged up and given some apples for his good work. When you go inside the tavern, Asky seems glad to see you alive, but his face falls when he realizes that you don't have his bag.")
+  print("--He says, 'Kid, not only did you fail to get my bag, you injured one of my best horses. I doubt that I can trust you with another quest. Please be on your way and do your best to avoid coming here again.'")
   print("--The End--")
   
 

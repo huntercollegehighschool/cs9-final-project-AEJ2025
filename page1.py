@@ -1,5 +1,3 @@
-#Use of this page is optional. If you use code here, make sure either import page1 or from page1 import * appear on your main.py page.
-
                     
 #Help
 def bar():
@@ -25,8 +23,8 @@ def tables ():
 
 #Find 
 def fight():
-  print("fight wolves, injured")#need text
-  onward_or_flee =input("type onward or flee")#need text
+  print("--You fight the wolves from your horse, bravely attacking with your sword. Unfortunatly your horse is pretty badly injured in the process. Do you cut your losses and flee the woods empty handed or do you continue onward on foot?")
+  onward_or_flee =input("--Type 'onward' to keep going on foot or 'flee' to return to the tavern: ")
   from page2 import onward
   from page2 import flee
   if onward_or_flee == "onward":

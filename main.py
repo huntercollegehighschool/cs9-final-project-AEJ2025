@@ -46,17 +46,41 @@ def help():
   if bar_or_tables == "tables":
     tables()
 def find():
-  print("Give directions, bye")#add text
-  print("wolves, insert ascii")#add text
-  fight_or_avoid = input("type fight or avoid")#add text
+  print("--Asky says, 'Thanks, friend! You're a great help. It was probably taken by a group of bandits who usually hang around the northeastern part of the Githube Forest. Once you get past Replait Lake, it goes pretty straight. Grab a horse from the stables. Good luck!'")
+  print("--You go on your way and find Replait Lake without much trouble. However, once you get there you see a pack of wolves blocking your path.")
+  print(r"""                  ~~
+                             d$$b
+                          .' TO$;\
+                         /  : TP._;
+                        / _.;  :Tb|
+                       /   /   ;j$j
+                   _.-'       d$$$$
+                 .' ..       d$$$$;
+                /  /P'      d$$$$P. |\
+               /   '      .d$$$P' |\^'l
+             .'           `T$P^''''  :
+         _.'      _.'                ;
+      `-.-''.-'-' ._.       _.-'    .-'
+    `.-'' _____  ._              .-'
+   -(.g$$$$$$$b.              .'
+     ''^^T$$$P^)            .(:
+       _/  -'  /.'         /:/;
+    ._.'-'`-'  ')/         /;/;
+ `-.-'..--''   ' /         /  ;
+.-'' ..--''        -'          :
+..--''--.-'         (\      .-(\
+  ..--''              `-\(\/;`
+    _.                      :
+                            ;`-
+                           :\
+                           ;  bug""") 
+  fight_or_avoid = input("--They look angry and hungry, which is never a good combination. You can either type 'fight' to try your luck at fighting them off or type 'avoid' to attempt to take evasive action and avoid the wolves altogether. So?: ")
   from page1 import fight
   from page1 import avoid
   if fight_or_avoid == "fight":
     fight()
   if fight_or_avoid == "avoid":
     avoid()
-  
-  #need code
   
 
 
