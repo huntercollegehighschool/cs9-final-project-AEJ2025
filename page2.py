@@ -53,19 +53,18 @@ def front():
   print("--After your day is done, you've earned enough tips, plus the pay Asky gave you, to cover your expences for a few more days of adventuring until you find another tavern to work at. Maybe you'll run into Elwin, Calla, and the Hearthstones on your travels!")
   print("--The End--")
 def back():
-  print("shady lads, ask what they want, kidnapped")
-  print("take you away as bait, you escape, they see you")
+  print("shady lads, ask what they want, kidnapped")#need text
+  print("take you away as bait, you escape, they see you")#need text
   import random
-  coinflip = [1,2]
-  random.choice(coinflip)
-  if coinflip == 1:
-    print("win, crown")#need text
-    print("congrats+gifts")#need text
-    print("--The End--")
-  elif coinflip == 2:
-    print("u die")#need text
-    print("grim reaper")#need text
-    print("--The End--")
+
+  bandit_list = ["win", "lose"]
+  bandit = random.choice(bandit_list)
+  from page3 import win
+  from page3 import lose
+  if bandit == "win":
+    win()  
+  elif bandit == "lose":
+    lose()
 
 
 #Find-Fight
@@ -73,19 +72,18 @@ def onward():
   print("continue, tie up horse")#need text
   print("meet bandits")#need text
   import random
-  coinflip = [1,2]
-  random.choice(coinflip) 
-  if coinflip == 1:
-    print("win, crown")#need text
-    print("congrats+gifts")#need text
-    print("--The End--")
-  elif coinflip == 2:
-    print("u die")#need text
-    print("grim reaper")#need text
-    print("--The End--")
+  bandit_list = ["win", "lose"]
+  bandit = random.choice(bandit_list)
+  from page3 import win
+  from page3 import lose
+  if bandit == "win":
+    win()  
+  elif bandit == "lose":
+    lose()
 
 def flee():
   print("return, help horse")#need text
   print("dissapointment, hurt horse, don't come back")#need text
+  print("--The End--")
   
 

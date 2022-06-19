@@ -36,13 +36,12 @@ def fight():
 
 def avoid():
   import random
-  coinflip = [1,2]
-  random.choice(coinflip) 
-  if coinflip == 1:
-    print("successfully avoid but your horse is hurt in the briars you hid in, continue")#need text
-    from page2 import onward
-    onward()
-  if coinflip == 2:
-    print("u die")#need text
-    print("grim reaper")#need text
-    print("--The End--")
+  wolf_list = ["success", "caught"]
+  wolf = random.choice(wolf_list)
+  from page3 import success
+  from page3 import caught
+  if wolf == "success":
+    success()  
+  elif wolf == "caught":
+    caught()
+  
