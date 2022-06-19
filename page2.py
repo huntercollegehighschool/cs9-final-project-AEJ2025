@@ -1,8 +1,8 @@
 
 #Help-Bar
 def leave():
-  print("--You appoligise, and say you're new to the area so you weren't aware of the laws. You then head back over to Asky to tell him that you need to go work at the tables.")
-  print("--Asky says, 'Oops, sorry for getting you in trouble, friend. I'll have a chat with Pyth when I get home tonight and explain the situation. He just got his sherrif job so he's a little too excited to catch a criminal. Anyway, do ya want to wait tables in the front or the back?")
+  print("--You apologize, and say you're new to the area so you weren't aware of the laws. You then head back over to Asky to tell him that you need to go work at the tables.")
+  print("--Asky says, 'Oops, sorry for getting you in trouble, friend. I'll have a chat with Pyth when I get home tonight and explain the situation. He just got his sheriff job so he's a little too excited to catch a criminal. Anyway, do ya want to wait tables in the front or the back?")
   front_or_back = input("--Ah, so that's the man's name. Good to know. Anyway, type 'front' to work in the front of the tavern or 'back' to work at the back. There's a couple shady characters lurking back there, so be on your guard: ")
   if front_or_back == "front":
      front()
@@ -21,13 +21,13 @@ def lie():
 
 #Help-Tables
 def front():
-  print("--You walk to the front of the tavern where you see a friendly looking group of adenturers who wave you down and introduce themselves as Elwin, Calla, and the Hearthstone siblings. They order some mushroom soup and a couple root beers for the siblings. When you bring them their order, they tip you generously and compement you for your service.")
-  print("--After your day is done, you've earned enough tips, plus the pay Asky gave you, to cover your expences for a few more days of adventuring until you find another tavern to work at. Maybe you'll run into Elwin, Calla, and the Hearthstones on your travels!")
+  print("--You walk to the front of the tavern where you see a friendly looking group of adenturers who wave you down and introduce themselves as Elwin, Calla, and the Hearthstone siblings. They order some mushroom soup and a couple root beers for the siblings. When you bring them their order, they tip you generously and compliment you for your service.")
+  print("--After your day is done, you've earned enough tips, plus the pay Asky gave you, to cover your expenses for a few more days of adventuring until you find another tavern to work at. Maybe you'll run into Elwin, Calla, and the Hearthstones on your travels!")
   print("--The End--")
 def back():
-  print("--You go to the back of the tavern, where some shady-looking characters and a kind old woman sit. You ask for their orders and the old woman sitting with them and the old woman says, 'Let me get that bit of dirt of your nose, dearie.' She reaches out her hankerchief and you suddenly become drowsy and collapse.")
-  print("--While you remain unconsious, the shady characters and the not so kind old lady take you to their camp in the Githube Woods. When you wake up you see a bag embroidered with the words 'To Asky, xoxo Pyth'. They must have stolen Asky's napsack!")
-  print("--You try to grab the napsack but the bandits catch you escaping and corner you. You are forced into battle!")
+  print("--You go to the back of the tavern, where some shady-looking characters and a kind old woman sit. You ask for their orders and the old woman says, 'Let me get that bit of dirt off your nose, dearie.' She reaches out her hankerchief and you suddenly become drowsy and collapse.")
+  print("--While you remain unconsious, the shady characters and the not so kind old lady take you to their camp in the Githube Woods. When you wake up you see a bag embroidered with the words 'To Asky, xoxo Pyth'. They must have stolen Asky's knapsack!")
+  print("--You try to grab the knapsack but the bandits catch you escaping and corner you. You are forced into battle!")
   import random
 
   bandit_list = ["win", "lose"]
@@ -43,7 +43,7 @@ def back():
 #Find-Fight
 def onward():
   print("--You continue on foot after tying up the injured horse. You'll go back for him once you finish your quest.")
-  print("--After a bit of walking, you see the bandit's camp, as well as Asky's bag, which is embroidered with the words 'To Asky, xoxo Pyth'. Unforunatly, the bandits see you, too. You are forced into battle!")
+  print("--After a bit of walking, you see the bandit's camp, as well as Asky's bag, which is embroidered with the words 'To Asky, xoxo Pyth'. Unfortunately, the bandits see you, too. You are forced into battle!")
   import random
   bandit_list = ["win", "lose"]
   bandit = random.choice(bandit_list)

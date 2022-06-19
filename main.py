@@ -10,7 +10,7 @@ Note: Ascii art pulled from https://www.asciiart.eu/. When possible the artist's
 
 
 def start():
-  print("You begin in the famous Asky's Tavern, where many adventurers   from far and wide have traveled to meet people and recieve quests in the hopes of earning some gold.")
+  print("You begin in the famous Asky's Tavern, where many adventurers from far and wide have traveled to meet people and receive quests in the hopes of earning some gold.")
   print(r"""                          (    )
                            (    )
                           (    )
@@ -29,7 +29,7 @@ def start():
                I_II  I__I_____[]_|_[]_____I
                I II__I  I     XXXXXXX     I
             ~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~""")
-  print("The bartender, Asky, comes up to you and says, 'Pardon me, you look like the adventuring type. I have a job for you. Ya see, I seem to have lost my napsack (or maybe it was stolen) and it would be great if you could find it. Or you can help me out here! I  can always use an extra pair of hands in this place. Um... assuming you do have hands?'")
+  print("The bartender, Asky, comes up to you and says, 'Pardon me, you look like the adventuring type. I have a job for you. Ya see, I seem to have lost my knapsack (or maybe it was stolen) and it would be great if you could find it. Or you can help me out here! I  can always use an extra pair of hands in this place. Um... assuming you do have hands?'")
   help_or_find = input("--So what'll it be? Type 'help' to help Asky in the tavern or 'find' to find the bag: ")
   if help_or_find == "help":
     help()

@@ -6,7 +6,7 @@ def success():
   onward()
 
 def caught():
-  print("--Unfortunatly, your attemps at evading the wolves fail, and they attack you and your horse. They overpower you and you fall from your horse, suffering a painful and dishonorable death.")
+  print("--Unfortunately, your attemps at evading the wolves fail, and they attack you and your horse. They overpower you and you fall from your horse, suffering a painful and dishonorable death.")
   print(r"""                                .""--..__
                      _                     []       ``-.._
                   .'` `'.                  ||__           `-._
@@ -48,7 +48,7 @@ def caught():
 
 #banditsrandom
 def win():
-  print("--Thanks to your well-honed skills with a sword, you fight off the bandets and tie them up. Victory is yours! ")
+  print("--Thanks to your well-honed skills with a sword, you fight off the bandits and tie them up. Victory is yours! ")
   print(r"""      .       |         .    .
             .  *         -*-          *
                  \        |         /   .
@@ -58,7 +58,7 @@ def win():
          \ | _ _\/_ _ \_\_ _ /_/_ _\/_ _ \_/
            \  *  *  *   \ \/ /  *  *  *  /
             ` ~ ~ ~ ~ ~  ~\/~ ~ ~ ~ ~ ~ '""")
-  print("--You return with the napsack and Asky is eternally greatful. Free root beers and gold for you!")
+  print("--You return with the knapsack and Asky is eternally grateful. Free root beers and gold for you!")
   print("--The End--")
 
 def lose():
